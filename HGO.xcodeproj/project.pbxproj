@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A2C3665D157B202300143FAF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2C3665C157B202300143FAF /* UIKit.framework */; };
+		A2C3665F157B202300143FAF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2C3665E157B202300143FAF /* Foundation.framework */; };
+		A2C36661157B202300143FAF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2C36660157B202300143FAF /* CoreGraphics.framework */; };
+		A2C36667157B202300143FAF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A2C36665157B202300143FAF /* InfoPlist.strings */; };
+		A2C36669157B202300143FAF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A2C36668157B202300143FAF /* main.m */; };
+		A2C3666D157B202300143FAF /* HGOAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A2C3666C157B202300143FAF /* HGOAppDelegate.m */; };
+		A2C36670157B202300143FAF /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2C3666E157B202300143FAF /* MainStoryboard_iPhone.storyboard */; };
+		A2C36673157B202300143FAF /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2C36671157B202300143FAF /* MainStoryboard_iPad.storyboard */; };
+		A2C36676157B202300143FAF /* HGOViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2C36675157B202300143FAF /* HGOViewController.m */; };
+		A2C3667E157B202300143FAF /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2C3667D157B202300143FAF /* SenTestingKit.framework */; };
+		A2C3667F157B202300143FAF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2C3665C157B202300143FAF /* UIKit.framework */; };
+		A2C36680157B202300143FAF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2C3665E157B202300143FAF /* Foundation.framework */; };
+		A2C36688157B202300143FAF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A2C36686157B202300143FAF /* InfoPlist.strings */; };
+		A2C3668B157B202300143FAF /* HGOTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A2C3668A157B202300143FAF /* HGOTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A2C36681157B202300143FAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2C3664F157B202300143FAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2C36657157B202300143FAF;
+			remoteInfo = HGO;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A2C36658157B202300143FAF /* HGO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HGO.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2C3665C157B202300143FAF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A2C3665E157B202300143FAF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A2C36660157B202300143FAF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A2C36664157B202300143FAF /* HGO-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HGO-Info.plist"; sourceTree = "<group>"; };
+		A2C36666157B202300143FAF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A2C36668157B202300143FAF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A2C3666A157B202300143FAF /* HGO-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HGO-Prefix.pch"; sourceTree = "<group>"; };
+		A2C3666B157B202300143FAF /* HGOAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HGOAppDelegate.h; sourceTree = "<group>"; };
+		A2C3666C157B202300143FAF /* HGOAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HGOAppDelegate.m; sourceTree = "<group>"; };
+		A2C3666F157B202300143FAF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		A2C36672157B202300143FAF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		A2C36674157B202300143FAF /* HGOViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HGOViewController.h; sourceTree = "<group>"; };
+		A2C36675157B202300143FAF /* HGOViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HGOViewController.m; sourceTree = "<group>"; };
+		A2C3667C157B202300143FAF /* HGOTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HGOTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2C3667D157B202300143FAF /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		A2C36685157B202300143FAF /* HGOTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HGOTests-Info.plist"; sourceTree = "<group>"; };
+		A2C36687157B202300143FAF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A2C36689157B202300143FAF /* HGOTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HGOTests.h; sourceTree = "<group>"; };
+		A2C3668A157B202300143FAF /* HGOTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HGOTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A2C36655157B202300143FAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2C3665D157B202300143FAF /* UIKit.framework in Frameworks */,
+				A2C3665F157B202300143FAF /* Foundation.framework in Frameworks */,
+				A2C36661157B202300143FAF /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2C36678157B202300143FAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2C3667E157B202300143FAF /* SenTestingKit.framework in Frameworks */,
+				A2C3667F157B202300143FAF /* UIKit.framework in Frameworks */,
+				A2C36680157B202300143FAF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A2C3664D157B202300143FAF = {
+			isa = PBXGroup;
+			children = (
+				A2C36662157B202300143FAF /* HGO */,
+				A2C36683157B202300143FAF /* HGOTests */,
+				A2C3665B157B202300143FAF /* Frameworks */,
+				A2C36659157B202300143FAF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A2C36659157B202300143FAF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2C36658157B202300143FAF /* HGO.app */,
+				A2C3667C157B202300143FAF /* HGOTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A2C3665B157B202300143FAF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A2C3665C157B202300143FAF /* UIKit.framework */,
+				A2C3665E157B202300143FAF /* Foundation.framework */,
+				A2C36660157B202300143FAF /* CoreGraphics.framework */,
+				A2C3667D157B202300143FAF /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A2C36662157B202300143FAF /* HGO */ = {
+			isa = PBXGroup;
+			children = (
+				A2C3666B157B202300143FAF /* HGOAppDelegate.h */,
+				A2C3666C157B202300143FAF /* HGOAppDelegate.m */,
+				A2C3666E157B202300143FAF /* MainStoryboard_iPhone.storyboard */,
+				A2C36671157B202300143FAF /* MainStoryboard_iPad.storyboard */,
+				A2C36674157B202300143FAF /* HGOViewController.h */,
+				A2C36675157B202300143FAF /* HGOViewController.m */,
+				A2C36663157B202300143FAF /* Supporting Files */,
+			);
+			path = HGO;
+			sourceTree = "<group>";
+		};
+		A2C36663157B202300143FAF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A2C36664157B202300143FAF /* HGO-Info.plist */,
+				A2C36665157B202300143FAF /* InfoPlist.strings */,
+				A2C36668157B202300143FAF /* main.m */,
+				A2C3666A157B202300143FAF /* HGO-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A2C36683157B202300143FAF /* HGOTests */ = {
+			isa = PBXGroup;
+			children = (
+				A2C36689157B202300143FAF /* HGOTests.h */,
+				A2C3668A157B202300143FAF /* HGOTests.m */,
+				A2C36684157B202300143FAF /* Supporting Files */,
+			);
+			path = HGOTests;
+			sourceTree = "<group>";
+		};
+		A2C36684157B202300143FAF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A2C36685157B202300143FAF /* HGOTests-Info.plist */,
+				A2C36686157B202300143FAF /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A2C36657157B202300143FAF /* HGO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2C3668E157B202300143FAF /* Build configuration list for PBXNativeTarget "HGO" */;
+			buildPhases = (
+				A2C36654157B202300143FAF /* Sources */,
+				A2C36655157B202300143FAF /* Frameworks */,
+				A2C36656157B202300143FAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HGO;
+			productName = HGO;
+			productReference = A2C36658157B202300143FAF /* HGO.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A2C3667B157B202300143FAF /* HGOTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2C36691157B202300143FAF /* Build configuration list for PBXNativeTarget "HGOTests" */;
+			buildPhases = (
+				A2C36677157B202300143FAF /* Sources */,
+				A2C36678157B202300143FAF /* Frameworks */,
+				A2C36679157B202300143FAF /* Resources */,
+				A2C3667A157B202300143FAF /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2C36682157B202300143FAF /* PBXTargetDependency */,
+			);
+			name = HGOTests;
+			productName = HGOTests;
+			productReference = A2C3667C157B202300143FAF /* HGOTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A2C3664F157B202300143FAF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = HGO;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = A2C36652157B202300143FAF /* Build configuration list for PBXProject "HGO" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A2C3664D157B202300143FAF;
+			productRefGroup = A2C36659157B202300143FAF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A2C36657157B202300143FAF /* HGO */,
+				A2C3667B157B202300143FAF /* HGOTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A2C36656157B202300143FAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2C36667157B202300143FAF /* InfoPlist.strings in Resources */,
+				A2C36670157B202300143FAF /* MainStoryboard_iPhone.storyboard in Resources */,
+				A2C36673157B202300143FAF /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2C36679157B202300143FAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2C36688157B202300143FAF /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A2C3667A157B202300143FAF /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A2C36654157B202300143FAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2C36669157B202300143FAF /* main.m in Sources */,
+				A2C3666D157B202300143FAF /* HGOAppDelegate.m in Sources */,
+				A2C36676157B202300143FAF /* HGOViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2C36677157B202300143FAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2C3668B157B202300143FAF /* HGOTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A2C36682157B202300143FAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2C36657157B202300143FAF /* HGO */;
+			targetProxy = A2C36681157B202300143FAF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A2C36665157B202300143FAF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2C36666157B202300143FAF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A2C3666E157B202300143FAF /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2C3666F157B202300143FAF /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		A2C36671157B202300143FAF /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2C36672157B202300143FAF /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		A2C36686157B202300143FAF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2C36687157B202300143FAF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A2C3668C157B202300143FAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A2C3668D157B202300143FAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A2C3668F157B202300143FAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HGO/HGO-Prefix.pch";
+				INFOPLIST_FILE = "HGO/HGO-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A2C36690157B202300143FAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HGO/HGO-Prefix.pch";
+				INFOPLIST_FILE = "HGO/HGO-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A2C36692157B202300143FAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HGO.app/HGO";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HGO/HGO-Prefix.pch";
+				INFOPLIST_FILE = "HGOTests/HGOTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		A2C36693157B202300143FAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HGO.app/HGO";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HGO/HGO-Prefix.pch";
+				INFOPLIST_FILE = "HGOTests/HGOTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A2C36652157B202300143FAF /* Build configuration list for PBXProject "HGO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2C3668C157B202300143FAF /* Debug */,
+				A2C3668D157B202300143FAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2C3668E157B202300143FAF /* Build configuration list for PBXNativeTarget "HGO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2C3668F157B202300143FAF /* Debug */,
+				A2C36690157B202300143FAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A2C36691157B202300143FAF /* Build configuration list for PBXNativeTarget "HGOTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2C36692157B202300143FAF /* Debug */,
+				A2C36693157B202300143FAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A2C3664F157B202300143FAF /* Project object */;
+}
